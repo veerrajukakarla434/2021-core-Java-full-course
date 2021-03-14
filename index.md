@@ -24,7 +24,7 @@
 * - Decision constructs: the if statement, the blocks, nested if, the switch statement
 * - Iterative constructs: the while statement, the for statement, nested loops
 * - Forced exit from loops with instructions: break and continue
-* Methods and Mathematical Functions
+* - Methods and Mathematical Functions
 * - Introduction
 * - The subroutines
 * - Recursion
@@ -40,7 +40,7 @@
 #### Object Oriented Programming
 * - The concept of class
 * - The classes in Java
-* -The Wrapper Classes
+* - The Wrapper Classes
 * - Class instances
 * - The builders
 
@@ -53,7 +53,7 @@
 * - Subclasses and supra classes
 * - The keyword extends
 * - The use of super
-* -The use of try –catch-throw
+* - The use of try –catch-throw
 
 ## MODULE 5
 #### The Polymorphism
