@@ -60,6 +60,85 @@ Hello manuel Welcome to Java program
 
 ## Introduction to Java - The variables: type, declaration, initialization and assignment
 
+#### What is a Variable in Java?
 
+* Variable in Java is a data container that stores the data values during Java program execution.
+* Every variable is assigned data type which designates the type and quantity of value it can hold. 
+* Variable is a memory location name of the data. 
+* The Java variables have mainly three types : Local, Instance and Static.
+
+* In order to use a variable in a program you to need to perform 2 steps 
+* **1. Variable Declaration**
+* **2. Variable Initialization**
+
+#### Variable Declaration:
+
+* To declare a variable, you must specify the data type & give the variable a unique name.
+
+![](https://www.guru99.com/images/uploads/2012/07/VriableTypeNameDeclaration.jpg)
+
+* Examples of other Valid Declarations are 
+
+```console
+int a,b,c;
+
+float pi;
+
+double d;
+
+char a;
+```
+
+##### Variable Initialization:
+
+To initialize a variable, you must assign it a valid value.
+
+![java-varibale-initialization](https://www.guru99.com/images/uploads/2012/07/java-varibale-initialization.jpg)
+
+Example of other Valid Initializations are 
+
+```console
+int a=2,b=4,c=6;
+
+float pi=3.14f;
+
+double do=20.22d;
+
+char a=’v’;
+```
+
+#### Types of variables
+
+* In Java, there are three types of variables: 
+
+**1.Local Variables**
+
+**2.Instance Variables**
+
+**3. Static Variables**
+
+
+#### 1) Local Variables
+
+* Local Variables are a variable that are declared inside the body of a method. 
+
+#### 2) Instance Variables
+
+* Instance variables are defined without the STATIC keyword .They are defined Outside a method declaration. They are Object specific and are known as instance variables. 
+
+#### 3) Static Variables
+
+* Static variables are initialized only once, at the start of the program execution. These variables should be initialized first, before the initialization of any instance variables. 
+
+Example: Types of Variables in Java
+```java
+class Demo {
+    static int a = 1; //static variable  
+    int data = 99; //instance variable  
+    void method() {
+        int b = 90; //local variable  
+    }
+}
+```
 
  
