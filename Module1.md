@@ -137,13 +137,36 @@ char a=’v’;
 
 Example: Types of Variables in Java
 ```java
-class Demo {
-    static int a = 1; //static variable  
-    int data = 99; //instance variable  
-    void method() {
-        int b = 90; //local variable  
-    }
+// this is the TestDemo class for Local , instance, static variables
+public class TestDemo {
+     
+	static int a= 10; // static variable
+	int b = 30; // instance variable
+	public static void main(String[] args) {
+		
+		int c = 40; // local variable (if we defined variable in side the method, we can call it is a local variable)
+		
+		System.out.println("Static variable value :"+a);
+		
+		System.out.println("local variable value :"+c);
+		
+		// we can not call instance variables in side the static methods
+		//System.out.println("instance variable value :"+b); it will give compile time error
+		
+		// creating Object for the class to load instance variables
+		
+		TestDemo td = new TestDemo();
+		
+		System.out.println("instance variable value :"+td.b);
+		
 }
+}
+```
+output:
+```Console
+Static variable value :10
+local variable value :40
+instance variable value :30
 ```
 ## Primitive Data Types
 #### What is Data Types in Java?
