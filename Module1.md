@@ -140,5 +140,51 @@ class Demo {
     }
 }
 ```
+## Primitive Data Types
+#### What is Data Types in Java?
 
+* Data Types in Java are defined as specifiers that allocate different sizes and types of values that can be stored in the variable or an identifier. Java has a rich set of data types. 
+* Data types in Java can be divided into two parts : 
+* **1.Primitive Data Types :-**  which include integer, character, boolean, and float 
+* **2.Non-primitive Data Types :-**  which include classes, arrays and interfaces. 
+
+#### Primitive Data Types
+
+* Primitive Data Types are predefined and available within the Java language. 
+* Primitive values do not share state with other primitive values.
+* There are 8 primitive types: byte, short, int, long, char, float, double, and boolean Integer data types 
+
+```Console
+byte (1 byte)
+short (2 bytes)
+int (4 bytes)
+long (8 bytes)
+```
+![java-varaibles](https://www.guru99.com/images/uploads/2012/07/java-varaibles.jpg)
+
+#### Floating Data Type 
+```Console
+float (4 bytes)
+
+double (8 bytes)
+```
+* char 
+```java
+(2 bytes)
+```
+* Logical
+```java
+boolean (1 byte) (true/false)
+```
+
+**Data Type** | **Default Value**  | **Default size**
+----------|--------------|---------------
+byte      |   0       |      1 byte  
+short    |    0       |      2 bytes  
+int     |     0       |      4 bytes  
+long   |     0L       |     8 bytes  
+float  |   0.0f      |      4 bytes  
+double   |  0.0d      |      8 bytes  
+boolean  |  false     |      1 bit  
+char    |  '\u0000'    |     2 bytes  
  
