@@ -31,8 +31,13 @@
 
 ```java
 // a small Java program
+// public is java keyword
+// class is java key work need to use before className
+// HelloWorld is Java className
 public class HelloWorld {
+    // public static void main is main method
     public static void main(String[] args) {
+       // System.out.println("Write something") here it is console state ment we can see output
         System.out.println("Hello World");
     }
 }
