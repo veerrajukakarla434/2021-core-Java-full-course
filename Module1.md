@@ -148,6 +148,8 @@ class Demo {
 * **1.Primitive Data Types :-**  which include integer, character, boolean, and float 
 * **2.Non-primitive Data Types :-**  which include classes, arrays and interfaces. 
 
+![DataTypes](https://www.guru99.com/images/java/DataTypes.png)
+
 #### Primitive Data Types
 
 * Primitive Data Types are predefined and available within the Java language. 
@@ -188,3 +190,25 @@ double   |  0.0d      |      8 bytes
 boolean  |  false     |      1 bit  
 char    |  '\u0000'    |     2 bytes  
  
+#### Primitive Data Types - Integer data types
+
+* Example using interger data type
+
+```java
+class HelloWorld {
+    static int a;
+    public static void main(String[] args) {
+         int b= 10;
+        System.out.println("integer variable a:"+a); 
+        System.out.println("integer variable b:"+b); 
+    }
+}
+```
+OutPut:
+```Console
+integer variable a:0
+integer variable b:10
+``
+
+
+
