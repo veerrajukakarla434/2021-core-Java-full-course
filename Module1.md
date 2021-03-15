@@ -54,7 +54,7 @@ Hello World
 public class HelloWorld {
    String name = "manuel";
     public static void main(String[] args) {
-        System.out.println("Hello +name+ Welcome to Java program");
+        System.out.println("Hello " +name+ " Welcome to Java program");
     }
 }
 ```
